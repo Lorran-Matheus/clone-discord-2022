@@ -1,0 +1,277 @@
+header {
+    background-image: url(../Images/BackgroundHeader.png);
+    background-attachment: fixed;
+    background-position: right -17.6rem top -7rem;
+    background-size: 100.5rem;  
+    max-width: 100%;
+    height: 23rem;
+    padding: 2rem;
+    color: white;
+    font-size: large;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+header h1 {
+    align-self: flex-start;
+    font-size: 2rem;
+    width: 11rem;
+}
+
+header p {
+    margin-top: 1rem;
+    text-shadow: 1px 1px 3px #23272A;
+}
+
+#header_buttons {
+    width: 100%;
+    margin-top: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 1rem;
+}
+
+.buttons {
+    padding: .8rem;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: .8rem;
+    width: 80%;
+}
+
+#header_button1 {
+    background-color: white;
+    color: black;
+}
+
+#header_button2 {
+    background-color: #23272A;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+#container_4 img {
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3.1rem;
+    padding: 2rem;
+}
+
+main h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+main p {
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+.texts_content {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+#different_font {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
+footer {
+    background-color: #23272A;
+    padding: 2rem;
+    
+    display: flex;
+    place-content: center;
+}
+
+footer div {
+    width: 10rem;
+}
+
+footer div img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 660px) {
+    header {
+        height: 14rem;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: right top -1.5rem;
+    }
+
+    header h1 {
+        align-self: center;
+        text-align: center;
+    }
+    
+    header p {
+        width: 38rem;
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    #header_buttons {
+        margin-top: .3rem;
+
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+    }
+
+    .buttons {
+        height: .8rem;
+    }
+
+    #header_button1{
+        font-size: .7rem;
+        width: 6.9rem;
+    }
+
+    #header_button2{
+        font-size: .7rem;
+        width: 10.9rem;
+    }
+
+    main h3 {
+        padding: 0 1rem;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+
+    main p {
+        padding: 0 .8rem;
+        font-size: .9rem;
+        line-height: 1.2rem;
+    }
+
+    .content {
+        padding: 0 2.4rem;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "esquerda direita";
+        place-items: center;
+    }
+    
+    #container_2 img {
+        grid-area: direita;
+    }
+
+    #container_2 div {
+        grid-area: esquerda;
+    }
+
+    #container_4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #texts_content h3 {
+        text-align: center;
+        font-size: 2rem;
+        margin: .5rem auto;
+        width: 25rem;
+    }
+
+    #texts_content p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    #texts_content img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        padding: 1rem 7rem;
+    }
+
+    header {
+        height: 20rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    header h1 {
+        width: 20rem;
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+
+    header p {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: .8rem;
+    }
+
+    #header_buttons {
+        margin-top: 1rem;
+
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+    }
+
+
+    #header_button1{
+        font-size: .9rem;
+        width: 10rem;
+    }
+
+    #header_button2{
+        font-size: .9rem;
+        width: 14rem;
+    }
+
+    .content {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #container_2 {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    main h3 {
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+    }
+
+    main p {
+        font-size: .8rem;
+        line-height: 1.3rem;
+    }
+
+    #texts_content p {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    #container_4 img {
+        width: 60rem;
+        margin: 0 auto;
+    }
+}

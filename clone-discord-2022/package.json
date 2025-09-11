@@ -1,0 +1,19 @@
+{
+  "name": "clone-discord-2022",
+  "version": "1.0.0",
+  "description": "Uma variação da interface do site discord em 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorran-Matheus/clone-discord-2022.git"
+  },
+  "author": "Lorran Matheus M Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lorran-Matheus/clone-discord-2022/issues"
+  },
+  "homepage": "https://github.com/Lorran-Matheus/clone-discord-2022#readme"
+}
