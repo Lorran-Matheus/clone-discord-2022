@@ -1,5 +1,5 @@
 header {
-    background-image: url(../Images/BackgroundHeader.png);
+    background-image: url(clone-discord-2022/Images/BackgroundHeader.png);
     background-attachment: fixed;
     background-position: right -17.6rem top -7rem;
     background-size: 100.5rem;  
@@ -104,4 +104,5 @@ footer div {
 
 footer div img {
     max-width: 100%;
+
 }
